@@ -52,7 +52,11 @@ heatmap.invalidateGeometryOnly( vertices: UpdateGeometryCallback )
 ## API Links
 
 * XY cartesian chart: [ChartXY]
-* Line series: [LineSeries]
+* Intensity Mesh Series: [IntensityMeshSeries]
+* IndividualPointFill: [IndividualPointFill]
+* ColorHSV: [ColorHSV]
+* Matrix: [Matrix]
+* UpdateGeometryCallback: [UpdateGeometryCallback]
 
 
 ## Support
@@ -76,6 +80,10 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © Arction Ltd 2009-2020. All rights reserved.
 
 
-[ChartXY]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/chartxy.html
-[LineSeries]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/lineseries.html
+[ChartXY]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/chartxy.html
+[IntensityMeshSeries]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/intensitymeshseries.html
+[IndividualPointFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/individualpointfill.html
+[ColorHSV]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#colorhsv
+[Matrix]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#matrix
+[UpdateGeometryCallback]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#updategeometrycallback
 
