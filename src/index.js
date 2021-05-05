@@ -48,3 +48,6 @@ const heatmap = chart
         x: prev.x * Math.sin(degToRad(row + 1)),
         y: prev.x * Math.sin(degToRad(column + 1))
     }))
+
+// Add LegendBox to chart.
+const legend = chart.addLegendBox().add(chart)
