@@ -1,6 +1,6 @@
-# Heatmap Mesh
+# JavaScript Heatmap Mesh Chart
 
-![Heatmap Mesh](heatmapMesh.png)
+![JavaScript Heatmap Mesh Chart](heatmapMesh.png)
 
 This demo application belongs to the set of examples for LightningChart JS, data visualization library for JavaScript.
 
