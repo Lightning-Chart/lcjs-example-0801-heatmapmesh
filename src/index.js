@@ -24,7 +24,7 @@ const resolution = 20
 
 // Create a new ChartXY.
 const chart = lightningChart().ChartXY({
-    // theme: Themes.dark
+    // theme: Themes.darkGold
 })
 chart.setTitle('Heatmap using IntensityMesh')
 
@@ -50,4 +50,10 @@ const heatmap = chart
     }))
 
 // Add LegendBox to chart.
-const legend = chart.addLegendBox().add(chart)
+const legend = chart.addLegendBox()
+    // Dispose example UI elements automatically if they take too much space. This is to avoid bad UI on mobile / etc. devices.
+    .setAutoDispose({
+        type: 'max-width',
+        maxWidth: 0.30,
+    })
+    .add(chart)
