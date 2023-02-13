@@ -1,6 +1,6 @@
 # JavaScript Heatmap Mesh Chart
 
-![JavaScript Heatmap Mesh Chart](heatmapMesh.png)
+![JavaScript Heatmap Mesh Chart](heatmapMesh-darkGold.png)
 
 This demo application belongs to the set of examples for LightningChart JS, data visualization library for JavaScript.
 
@@ -8,45 +8,20 @@ LightningChart JS is entirely GPU accelerated and performance optimized charting
 
 The demo can be used as an example or a seed project. Local execution requires the following steps:
 
-- Make sure that relevant version of [Node.js](https://nodejs.org/en/download/) is installed
-- Open the project folder in a terminal:
+-   Make sure that relevant version of [Node.js](https://nodejs.org/en/download/) is installed
+-   Open the project folder in a terminal:
 
-        npm install              # fetches dependencies
-        npm start                # builds an application and starts the development server
+          npm install              # fetches dependencies
+          npm start                # builds an application and starts the development server
 
-- The application is available at *http://localhost:8080* in your browser, webpack-dev-server provides hot reload functionality.
+-   The application is available at _http://localhost:8080_ in your browser, webpack-dev-server provides hot reload functionality.
 
 
 ## Description
 
-This example shows a simple use-case scenario for mesh-based Heatmaps.
+The Heatmap Mesh feature has been removed in v4.0.0.
 
-Heatmaps are a powerful tool for visualizing magnitude in two dimensions. This example focuses on the IntensityMesh-type Heatmap Series. The difference between grid and mesh types is apparent in the naming; whereas grid is always a rectangular shape, the mesh type allows users to modify the geometry of the shape.
-
-Heatmaps can be created in XY Charts:
-```javascript
-// Add heatmap Series to a XY Chart
-chartXY.addHeatmapSeries( {
-    rows:       verticalResolution,
-    columns:    horizontalResolution,
-    start:      { x: 0, y: 0 },
-    end:        { x: 100, y: 100 },
-    pixelate:   false,
-    // Make sure we're using the Mesh IntensitySeriesType
-    type:       IntensitySeriesTypes.Mesh
-})
-```
-
-The *Mesh IntensitySeriesType* has the same API that is available with the *Grid IntensitySeriesType*, but in addition it has the *invalidateGeometryOnly* method:
-
-```javascript
-// Use invalidateGeometryOnly to edit the geometry of the heatmap and invalidate it.
-// This can be done by supplying a Matrix of Points to the method.
-heatmap.invalidateGeometryOnly( vertices: Matrix<Point> )
-// Optionally, the geometry can be modified by supplying the method with a callback
-// which modifies each point.
-heatmap.invalidateGeometryOnly( vertices: UpdateGeometryCallback )
-```
+If your application requires this feature, please, contact us at support@lightningchart.com
 
 
 ## API Links
@@ -63,27 +38,27 @@ heatmap.invalidateGeometryOnly( vertices: UpdateGeometryCallback )
 
 If you notice an error in the example code, please open an issue on [GitHub][0] repository of the entire example.
 
-Official [API documentation][1] can be found on [Arction][2] website.
+Official [API documentation][1] can be found on [LightningChart][2] website.
 
 If the docs and other materials do not solve your problem as well as implementation help is needed, ask on [StackOverflow][3] (tagged lightningchart).
 
-If you think you found a bug in the LightningChart JavaScript library, please contact support@arction.com.
+If you think you found a bug in the LightningChart JavaScript library, please contact support@lightningchart.com.
 
-Direct developer email support can be purchased through a [Support Plan][4] or by contacting sales@arction.com.
+Direct developer email support can be purchased through a [Support Plan][4] or by contacting sales@lightningchart.com.
 
 [0]: https://github.com/Arction/
-[1]: https://www.arction.com/lightningchart-js-api-documentation/
-[2]: https://www.arction.com
+[1]: https://lightningchart.com/lightningchart-js-api-documentation/
+[2]: https://lightningchart.com
 [3]: https://stackoverflow.com/questions/tagged/lightningchart
-[4]: https://www.arction.com/support-services/
+[4]: https://lightningchart.com/support-services/
 
-© Arction Ltd 2009-2020. All rights reserved.
+© LightningChart Ltd 2009-2022. All rights reserved.
 
 
-[XY cartesian chart]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/classes/chartxy.html
-[Intensity Mesh Series]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/classes/intensitymeshseries.html
-[IndividualPointFill]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/classes/individualpointfill.html
-[ColorHSV]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/globals.html#colorhsv
-[Matrix]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/globals.html#matrix
-[UpdateGeometryCallback]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/globals.html#updategeometrycallback
+[XY cartesian chart]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/classes/ChartXY.html
+[Intensity Mesh Series]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/
+[IndividualPointFill]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/classes/IndividualPointFill.html
+[ColorHSV]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/functions/ColorHSV.html
+[Matrix]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/
+[UpdateGeometryCallback]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/
 
