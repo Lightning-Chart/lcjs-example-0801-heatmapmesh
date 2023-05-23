@@ -27,11 +27,8 @@ If your application requires this feature, please, contact us at support@lightni
 ## API Links
 
 * [XY cartesian chart]
-* [Intensity Mesh Series]
 * [IndividualPointFill]
 * [ColorHSV]
-* [Matrix]
-* [UpdateGeometryCallback]
 
 
 ## Support
@@ -55,10 +52,7 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2022. All rights reserved.
 
 
-[XY cartesian chart]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/classes/ChartXY.html
-[Intensity Mesh Series]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/
-[IndividualPointFill]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/classes/IndividualPointFill.html
-[ColorHSV]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/functions/ColorHSV.html
-[Matrix]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/
-[UpdateGeometryCallback]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/
+[XY cartesian chart]: https://lightningchart.com/lightningchart-js-api-documentation/v4.1.0/classes/ChartXY.html
+[IndividualPointFill]: https://lightningchart.com/lightningchart-js-api-documentation/v4.1.0/classes/IndividualPointFill.html
+[ColorHSV]: https://lightningchart.com/lightningchart-js-api-documentation/v4.1.0/functions/ColorHSV.html
 
