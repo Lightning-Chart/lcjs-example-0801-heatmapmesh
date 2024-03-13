@@ -18,7 +18,7 @@ const resolution = 20
 
 // Create a new ChartXY.
 const chart = lightningChart().ChartXY({
-    // theme: Themes.darkGold
+    theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
 })
 chart.setTitle('Heatmap using IntensityMesh')
 
