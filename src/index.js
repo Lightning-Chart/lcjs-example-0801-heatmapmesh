@@ -17,7 +17,9 @@ function degToRad(angle) {
 const resolution = 20
 
 // Create a new ChartXY.
-const chart = lightningChart().ChartXY({
+const chart = lightningChart({
+            resourcesBaseUrl: new URL(document.head.baseURI).origin + new URL(document.head.baseURI).pathname + 'resources/',
+        }).ChartXY({
     theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
 })
 chart.setTitle('Heatmap using IntensityMesh')
