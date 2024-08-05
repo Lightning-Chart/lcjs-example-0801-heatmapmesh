@@ -2,7 +2,7 @@
  * LightningChartJS example that showcases a simple XY line series.
  */
 // Import LightningChartJS
-const lcjs = require('@arction/lcjs')
+const lcjs = require('@lightningchart/lcjs')
 
 // Extract required parts from LightningChartJS.
 const { lightningChart, IntensitySeriesTypes, IndividualPointFill, ColorHSV, Themes } = lcjs
@@ -29,11 +29,11 @@ const heatmap = chart
     .addHeatmapSeries({
         rows: resolution,
         columns: resolution,
-        start: { x: 10, y: 10 },
-        end: { x: 1990, y: 1990 },
         pixelate: true,
         type: IntensitySeriesTypes.Mesh,
     })
+    .setStart({ x: 10, y: 10 })
+    .setEnd({ x: 1990, y: 1990 })
     // Add colors and invalidate the Series based on the colors assigned.
     .invalidateColorsOnly((row, column) => ColorHSV(Math.random() * 70, 0.8))
     // Use IndividualPointFill to apply individual color per cell.
