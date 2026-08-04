@@ -52,7 +52,7 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2026. All rights reserved.
 
 
-[XY cartesian chart]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/classes/ChartXY.html
-[IndividualPointFill]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/classes/IndividualPointFill.html
-[ColorHSV]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/functions/ColorHSV.html
+[XY cartesian chart]: https://lightningchart.com/js-charts/api-documentation/v9.0.0/classes/ChartXY.html
+[IndividualPointFill]: https://lightningchart.com/js-charts/api-documentation/v9.0.0/classes/IndividualPointFill.html
+[ColorHSV]: https://lightningchart.com/js-charts/api-documentation/v9.0.0/functions/ColorHSV.html
 
